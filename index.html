@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Info Kuliah Kota Bandung</title>
+    <!-- Font Awesome Link for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <!-- Bootstrap Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- CSS Link (harus diletakkan setelah Bootstrap untuk override jika diperlukan) -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/4f66c1240a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <!-- Checkbox for toggling menu -->
+      <input type="checkbox" id="check" />
+      <!-- Menu icon -->
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <!-- Site logo -->
+      <label class="logo">Wira Info Campus</label>
+      <!-- Navigation links -->
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#kategori">Kampus</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="home">
+      <div class="container px-4 py-5">
+        <div class="row gx-5 align-items-center">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="1000">
+            <div class="p-3">
+              <img
+                src="./img/college students-rafiki.svg"
+                alt="Ilustrasi Mahasiswa"
+                class="img-fluid w-100"
+              />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-3 mt-5" data-aos="fade-left" data-aos-duration="1000">
+              <h1 class="display-4 fw-bold text-primary mb-3">
+                Bingung Cari Kampus Favorit di Bandung?
+              </h1>
+              <p class="lead text-muted mb-4">
+                Temukan rekomendasi kampus terbaik dengan fasilitas lengkap dan
+                jurusan sesuai minatmu!
+              </p>
+              <a href="#kategori" class="btn btn-outline-primary btn-lg px-4"
+                >Cari Sekarang <i class="fa-solid fa-magnifying-glass"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Kategori Kampus -->
+    <div class="container py-5" id="kategori">
+      <h1
+        class="display-4 fw-bold text-primary mb-3 text-center mb-5"
+        data-aos="fade-up"
+        data-aos-duration="1000"
+      >
+        Kategori Kampus
+      </h1>
+      <div class="row mt-5">
+        <!-- Card 1 - Maranatha -->
+        <div class="col-md-4 mb-4">
+          <div
+            class="card h-100"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <img
+              src="./img/maranata.jpeg"
+              class="card-img-top"
+              alt="Maranatha University"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Universitas Kristen Maranatha</h5>
+              <small class="text-muted">Sekolah Tinggi Swasta</small>
+              <p class="card-text mt-2">
+                Universitas Kristen Maranatha adalah salah satu perguruan tinggi
+                swasta terbaik di Jawa Barat dengan peringkat akreditasi Baik
+                Sekali.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://www.maranatha.edu/"
+                target="_blank"
+                class="btn btn-primary"
+                >Cek Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 - Langlangbuana -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-duration="1000">
+            <img
+              src="./img/Universitas Langlangbuana.jpeg"
+              class="card-img-top"
+              alt="Langlangbuana University"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Universitas Langlangbuana</h5>
+              <small class="text-muted">Sekolah Tinggi Swasta</small>
+              <p class="card-text mt-2">
+                Berdirinya Universitas Langlangbuana (UNLA) pada awal tahun 1980
+                diprakarsai oleh beberapa purnawirawan Polri yang peduli
+                terhadap pendidikan.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://new.unla.ac.id/"
+                target="_blank"
+                class="btn btn-primary"
+                >Cek Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 - Widyatama -->
+        <div class="col-md-4 mb-4">
+          <div
+            class="card h-100"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <img
+              src="./img/widyatama.jpeg"
+              class="card-img-top"
+              alt="Widyatama University"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Universitas Widyatama</h5>
+              <small class="text-muted">Sekolah Tinggi Swasta</small>
+              <p class="card-text mt-2">
+                Universitas Widyatama adalah perguruan tinggi swasta di Bandung
+                yang terkenal dengan program studi bisnis, komunikasi, dan
+                teknik.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://www.widyatama.ac.id/"
+                target="_blank"
+                class="btn btn-primary"
+                >Cek Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4 - Polman -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100" data-aos="fade-right" data-aos-duration="1000">
+            <img
+              src="./img/Politeknik Manufaktur Bandung.jpeg"
+              class="card-img-top"
+              alt="Polman Bandung"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Politeknik Manufaktur Bandung</h5>
+              <small class="text-muted">Politeknik Negeri</small>
+              <p class="card-text mt-2">
+                Politeknik Manufaktur Bandung atau Polman Bandung merupakan
+                salah satu perguruan tinggi negeri vokasi dan politeknik negeri
+                pertama di Indonesia.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://polman-bandung.ac.id/"
+                target="_blank"
+                class="btn btn-primary"
+                >Cek Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5 - UPI -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100" data-aos="fade-up" data-aos-duration="1000">
+            <img src="./img/UPI.jpeg" class="card-img-top" alt="UPI" />
+            <div class="card-body">
+              <h5 class="card-title">Universitas Pendidikan Indonesia</h5>
+              <small class="text-muted">Universitas Negeri</small>
+              <p class="card-text mt-2">
+                UPI adalah perguruan tinggi negeri yang menjadi pusat
+                pengembangan pendidikan di Indonesia dengan berbagai program
+                studi unggulan.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://www.upi.edu/"
+                target="_blank"
+                class="btn btn-primary"
+                >Cek Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6 - ITB -->
+        <div class="col-md-4 mb-4">
+          <div class="card h-100" data-aos="fade-left" data-aos-duration="1000">
+            <img src="./img/ITB.jpeg" class="card-img-top" alt="ITB" />
+            <div class="card-body">
+              <h5 class="card-title">Institut Teknologi Bandung</h5>
+              <small class="text-muted">Institut Teknologi Negeri</small>
+              <p class="card-text mt-2">
+                ITB merupakan perguruan tinggi teknik terbaik di Indonesia yang
+                telah melahirkan banyak tokoh penting di berbagai bidang.
+              </p>
+            </div>
+            <div class="card-footer">
+              <a
+                href="https://itb.ac.id/"
+                class="btn btn-primary"
+                target="_blank"
+                >Cek Selengkapnya</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+      <div class="container">
+        <h1
+          class="display-4 fw-bold text-primary mb-5 text-center"
+          data-aos="fade-up"
+        >
+          Our Services
+        </h1>
+        <div class="row">
+          <!-- Service 1 -->
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center">
+                <i class="fas fa-university fa-3x text-primary mb-3"></i>
+                <h4 class="card-title">Info Kampus</h4>
+                <p class="card-text">
+                  Informasi lengkap tentang kampus-kampus terbaik di Bandung
+                  termasuk akreditasi, fasilitas, dan jurusan.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center">
+                <i class="fas fa-graduation-cap fa-3x text-primary mb-3"></i>
+                <h4 class="card-title">Konsultasi Jurusan</h4>
+                <p class="card-text">
+                  Bantuan memilih jurusan yang sesuai dengan minat dan bakat
+                  Anda dari berbagai universitas.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body text-center">
+                <i class="fas fa-calendar-alt fa-3x text-primary mb-3"></i>
+                <h4 class="card-title">Jadwal Pendaftaran</h4>
+                <p class="card-text">
+                  Update terbaru tentang jadwal pendaftaran, ujian masuk, dan
+                  informasi penting lainnya.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+      <div class="container">
+        <h1
+          class="display-4 fw-bold text-primary mb-5 text-center"
+          data-aos="fade-up"
+        >
+          Contact Us
+        </h1>
+        <div class="row">
+          <div class="col-lg-6 mb-4" data-aos="fade-right">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title mb-4">Get in Touch</h3>
+                <form>
+                  <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="message" class="form-label">Pesan</label>
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="5"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">
+                    Kirim Pesan
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mb-4" data-aos="fade-left">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h3 class="card-title mb-4">Our Information</h3>
+                <div class="mb-4">
+                  <h5>
+                    <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                    Alamat
+                  </h5>
+                  <p>Jl. Contoh No. 123, Bandung, Jawa Barat</p>
+                </div>
+                <div class="mb-4">
+                  <h5>
+                    <i class="fas fa-phone-alt text-primary me-2"></i> Telepon
+                  </h5>
+                  <p>+62 123 4567 890</p>
+                </div>
+                <div class="mb-4">
+                  <h5>
+                    <i class="fas fa-envelope text-primary me-2"></i> Email
+                  </h5>
+                  <p>info@wirainfocampus.com</p>
+                </div>
+                <div class="mb-4">
+                  <h5>
+                    <i class="fas fa-clock text-primary me-2"></i> Jam
+                    Operasional
+                  </h5>
+                  <p>Senin - Jumat: 08.00 - 17.00 WIB</p>
+                </div>
+                <div class="social-media mt-4">
+                  <a href="#" class="text-primary me-3"
+                    ><i class="fab fa-facebook-f fa-2x"></i
+                  ></a>
+                  <a href="#" class="text-primary me-3"
+                    ><i class="fab fa-twitter fa-2x"></i
+                  ></a>
+                  <a href="#" class="text-primary me-3"
+                    ><i class="fab fa-instagram fa-2x"></i
+                  ></a>
+                  <a href="#" class="text-primary"
+                    ><i class="fab fa-linkedin-in fa-2x"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h5>Wira Info Campus</h5>
+            <p>
+              Platform informasi kampus terbaik di Bandung untuk membantu Anda
+              menemukan pendidikan tinggi yang tepat.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li><a href="#home" class="text-white">Home</a></li>
+              <li><a href="#kategori" class="text-white">Kampus</a></li>
+              <li><a href="#services" class="text-white">Services</a></li>
+              <li><a href="#contact" class="text-white">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Legal</h5>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-white">Privacy Policy</a></li>
+              <li><a href="#" class="text-white">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-4" />
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 Wira Info Campus. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Inisialisasi AOS -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        AOS.init({
+          duration: 800,
+          easing: "ease-in-out",
+          once: false,
+        });
+      });
+    </script>
+  </body>
+</html>
